@@ -23,9 +23,14 @@ We will be working with:
 7. Tailwing: to simplify our styling. 
 9. Axios: for fetching data from library. 
 
-### Screenshots
+## Screenshots
+
+### Marketplace
 
 ![Market Place](./Screenshots/nftmkp.jpg)
+
+### Creating Item on the market
+
 ![Creat Item](./Screenshots/nftlst.jpg)
 
 
