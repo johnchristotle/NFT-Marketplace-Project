@@ -1,6 +1,25 @@
-## Full stack NFT marketplace built with Polygon, Solidity, IPFS, & Next.js 
-by Agholor Christotle
+## Full stack NFT marketplace built with Polygon, Solidity, IPFS, Web3, Ether, Tailwind & Next.js  
 
+![by Agholor Christotle](https://github.com/johnchristotle)
+
+
+This is a full stack project with both frontend and backend connected.
+
+Helping you to see how things are put together and not just writing solidity,
+or just interacting with a contract, etc but actually building the whole thing
+and testing it end to end.
+
+Another interesting thing about this project is that we will be working with an Ethereum 
+Scalability Solution like Polygon which helps us achieve things with cheap transaction fees.
+
+We will be working with:
+1. Hardhat: for the solidity development environmrnt 
+2. Ether: for client library to interact with chain
+3. IPFS: for files uploads and files downloads
+4. Web3 module: to enable us choose a wallet to work with...(Metamask etc)
+5. Chai: for testing
+6. OpenZeppelin/Contract: to inherit the ERC721 contract functionality. 
+7. Tailwing: to simplify our styling. 
 
 ### Screenshots
 
