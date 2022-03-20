@@ -11,11 +11,13 @@ module.exports = {
       chainId: 1337
     },
     
-    /*mumbai: {
+    mumbai: {
       url: `https://polygon-mumbai.infura.io/v3/${infuraId}`,
-      url: "https://rpc-mumbai.maticvigil.com",
+      //url: "https://rpc-mumbai.maticvigil.com",
       accounts: [privateKey]
     },
+
+    /*
     matic: {
       url: `https://polygon-mainnet.infura.io/v3/${infuraId}`,
       url: "https://rpc-mainnet.maticvigil.com",
