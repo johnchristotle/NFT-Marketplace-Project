@@ -19,7 +19,9 @@ We will be working with:
 4. Web3 module: to enable us choose a wallet to work with...(Metamask etc)
 5. Chai: for testing
 6. OpenZeppelin/Contract: to inherit the ERC721 contract functionality. 
+7. NextJS: for our frontend app.
 7. Tailwing: to simplify our styling. 
+9. Axios: for fetching data from library. 
 
 ### Screenshots
 
@@ -30,16 +32,14 @@ We will be working with:
 ### Running this project
 follow the steps bellow:
 
-# Local setup
-
 To run this project locally, follow these steps.
 
-1. Clone the project locally, change into the directory, and install the dependencies:
+* Clone the project locally, change into the directory, and install the dependencies:
 
 ```sh
-git clone https://github.com/johnchristotle/full-stack-nft-marketplace.git
+git clone https://github.com/johnchristotle/NFT-Marketplace-Project.git
 
-cd full-stack-nft-marketplace
+cd NFT-Marketplace-Project
 
 # install using NPM or Yarn
 npm install
@@ -48,6 +48,17 @@ npm install
 
 yarn
 ```
+
+### KEY NOTES:
+1. look at the .gitignore file and find 3 key ignored files:
+provide yours to enable you run this app e.g
+
+a. .infuraId - get an ID from infura and place it here
+b. .secret - copy the private key of the wallet you intend to use and place it here
+c. config.js - when you run ```npx hardhat run scripts/deploy.js --network localhost/mumbai/mainnet``` the contract address will automatically appear there.
+
+
+### Local setup
 
 2. Start the local Hardhat node
 
@@ -67,3 +78,43 @@ npx hardhat run scripts/deploy.js --network localhost
 npm run dev
 ```
 
+
+### Testnet setup
+
+2. Start the local Hardhat node
+
+```sh
+npx hardhat node
+```
+
+3. With the network running, deploy the contracts to the local network in a separate terminal window
+
+```sh
+npx hardhat run scripts/deploy.js --network mumbai
+```
+
+4. Start the app
+
+```
+npm run dev
+```
+
+### Mainnet setup
+
+2. Start the local Hardhat node
+
+```sh
+npx hardhat node
+```
+
+3. With the network running, deploy the contracts to the local network in a separate terminal window
+
+```sh
+npx hardhat run scripts/deploy.js --network mainnet
+```
+
+4. Start the app
+
+```
+npm run dev
+```
