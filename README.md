@@ -57,6 +57,9 @@ a. .infuraId - get an ID from infura and place it here
 b. .secret - copy the private key of the wallet you intend to use and place it here
 c. config.js - when you run ```npx hardhat run scripts/deploy.js --network localhost/mumbai/mainnet``` the contract address will automatically appear there.
 
+d. NOTE: should the network fails when you using 
+```(`https://polygon-mumbai.infura.io/v3/${infuraId}`)```
+at your index.js file, please copy and paste the full network including your ID and it will pass through.
 
 ### Local setup
 
